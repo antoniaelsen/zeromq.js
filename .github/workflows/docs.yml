@@ -24,7 +24,7 @@ jobs:
         ARCH:
           - x64
         zmq_draft:
-          - false
+          - true
     env:
       ZMQ_DRAFT: ${{ matrix.zmq_draft }}
       ZMQ_SHARED: false
